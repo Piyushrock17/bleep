@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Personal Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f9; }
+        header { background: #2c3e50; color: #fff; padding: 1rem 0; }
+        nav { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+        .logo { font-size: 1.2rem; font-weight: bold; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 20px; }
+        nav ul li a { color: #fff; text-decoration: none; transition: color 0.3s; }
+        nav ul li a:hover, nav ul li a.active { color: #3498db; }
+        main { max-width: 1000px; margin: 40px auto; padding: 30px; background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h2 { color: #2c3e50; margin-bottom: 20px; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        .project-item { margin-bottom: 25px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        .project-item:last-child { border-bottom: none; }
+        .project-item h3 { color: #2c3e50; margin-bottom: 5px; }
+        .project-item p { color: #555; margin-bottom: 10px; }
+        .tech-tag { display: inline-block; background: #e2e8f0; color: #2d3748; padding: 3px 8px; font-size: 0.85rem; border-radius: 4px; margin-right: 5px; }
+        footer { text-align: center; padding: 20px; background: #2c3e50; color: #fff; margin-top: 40px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>My Projects</h2>
+            <p>Here are some of the web development and academic projects I have worked on.</p>
+            
+            <div class="project-item">
+                <h3>Multi-page Personal Portfolio</h3>
+                <p>A multi-page static website built using semantic HTML5 elements, navigation hyperlinks, and structured layouts to demonstrate fundamental web design capabilities.</p>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Git/GitHub</span>
+            </div>
+
+            <div class="project-item">
+                <h3>Academic Case Study Dashboard</h3>
+                <p>An organized information dashboard and text presentation layout structured around data research metrics and structured documentation formats.</p>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">Layout Structuring</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Piyush Singh. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>moviesStand Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#120e2e] text-slate-200 font-sans">
+
+    <nav class="bg-[#1a1440] p-4 border-b border-purple-500/30 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <div class="text-xl font-extrabold tracking-wide text-purple-400">
+                🍿 moviesStand
+            </div>
+            <div class="space-x-4 text-xs font-medium">
+                <a href="#store-features" class="hover:text-purple-400 transition">Features</a>
+                <a href="#store-benefits" class="hover:text-purple-400 transition">Benefits</a>
+                <a href="#movie-list" class="hover:text-purple-400 transition">Movies</a>
+                <a href="#store-reviews" class="hover:text-purple-400 transition">Reviews</a>
+                <a href="#store-pricing" class="hover:text-purple-400 transition">Prices</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-4xl mx-auto my-10 p-6 bg-[#1a1440] border border-purple-500/20 rounded-xl shadow-xl flex flex-col md:flex-row items-center gap-8">
+        <div class="space-y-4 w-full md:w-1/2 text-center md:text-left">
+            <span class="bg-purple-900/60 border border-purple-500/30 text-purple-300 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                🇮🇳 Local Indian Currency Store
+            </span>
+            <h1 class="text-3xl font-extrabold text-white leading-tight">
+                Get Great Hollywood Movies Natively in <span class="text-purple-400">Rupees (₹)</span>
+            </h1>
+            <p class="text-xs text-slate-300 leading-relaxed">
+                Welcome to moviesStand! This is a simple landing page project where users can buy and own digital Hollywood films directly using local Indian Rupees. Pay instantly using phone scanners with GPay, PhonePe, or Paytm. No credit cards needed!
+            </p>
+            <div class="pt-2 space-x-3">
+                <a href="#store-pricing" class="bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold px-4 py-2.5 rounded-lg transition inline-block">Buy Pass Now</a>
+                <a href="#movie-list" class="bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs font-bold px-4 py-2.5 rounded-lg border border-slate-700 transition inline-block">Explore List</a>
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 p-3 bg-[#0d0a21] border border-purple-500/20 rounded-xl">
+            <p class="text-[10px] text-purple-400 font-bold mb-2 text-center">Featured Cinema Poster Box:</p>
+            <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=500&q=80" alt="Cinematic Graphic" class="w-full h-44 object-cover rounded-lg">
+            <div class="mt-3 flex justify-between items-center px-1">
+                <span class="text-xs font-bold text-white">Sci-Fi Special Edition</span>
+                <span class="text-sm font-black text-purple-400">Flat ₹149</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="store-features" class="bg-[#0d0a21] py-12 px-4 border-t border-b border-purple-500/10">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-xl font-extrabold text-center text-white mb-2">Key Core Features</h2>
+            <p class="text-xs text-slate-400 text-center mb-8">Simple grids showcasing how our localized store handles transactions.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-[#1a1440] p-5 border border-purple-500/20 rounded-xl hover:border-purple-500/40 transition">
+                    <div class="text-xl mb-2">💸</div>
+                    <h3 class="font-bold text-sm text-white mb-1">Direct Rupees Rates</h3>
+                    <p class="text-[11px] text-slate-300 leading-relaxed">Forget complex conversions. Every piece of film catalog is strictly listed in regular Indian Rupees format.</p>
+                </div>
+                <div class="bg-[#1a1440] p-5 border border-purple-500/20 rounded-xl hover:border-purple-500/40 transition">
+                    <div class="text-xl mb-2">⚡</div>
+                    <h3 class="font-bold text-sm text-white mb-1">One-Click UPI Apps</h3>
+                    <p class="text-[11px] text-slate-300 leading-relaxed">Pay with total comfort through quick scanner phone options with your standard native banking layout apps.</p>
+                </div>
+                <div class="bg-[#1a1440] p-5 border border-purple-500/20 rounded-xl hover:border-purple-500/40 transition">
+                    <div class="text-xl mb-2">🔊</div>
+                    <h3 class="font-bold text-sm text-white mb-1">Dual Regional Tracks</h3>
+                    <p class="text-[11px] text-slate-300 leading-relaxed">Includes professional dual audio switches so you can select English master tracks or clear Hindi dubbed audio.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="store-benefits" class="max-w-3xl mx-auto py-12 px-4 space-y-6">
+        <h2 class="text-xl font-extrabold text-center text-white">How moviesStand Helps You</h2>
+        
+        <div class="flex flex-col sm:flex-row items-center gap-4 bg-[#1a1440] p-4 border border-purple-500/20 rounded-xl">
+            <div class="text-3xl p-3 bg-[#0d0a21] rounded-lg">🛡️</div>
+            <div>
+                <h3 class="font-bold text-sm text-purple-400 mb-1">Zero Unexpected Bank Conversion Marks</h3>
+                <p class="text-[11px] text-slate-300 leading-relaxed">
+                    Foreign streaming stores charge a hidden 3.5% transaction fee on credit cards to exchange money. At moviesStand, you pay the exact local coin bill with total transparency.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center gap-4 bg-[#1a1440] p-4 border border-purple-500/20 rounded-xl">
+            <div class="text-3xl p-3 bg-[#0d0a21] rounded-lg">🍿</div>
+            <div>
+                <h3 class="font-bold text-sm text-purple-400 mb-1">Lifetime Permanent Cloud Storage</h3>
+                <p class="text-[11px] text-slate-300 leading-relaxed">
+                    Standard monthly subscriptions rotate and drop titles constantly when contracts expire. Buying a store ticket ensures your link stays locked into your dashboard indefinitely.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="movie-list" class="bg-[#0d0a21] py-12 px-4 border-t border-b border-purple-500/10">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-xl font-extrabold text-center text-white mb-8">Available on the Stand</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div class="bg-[#1a1440] border border-purple-500/20 rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=400&q=80" class="w-full h-28 object-cover opacity-90" alt="Space Print">
+                    <div class="p-4 space-y-2">
+                        <h3 class="font-bold text-xs text-white">Space Explorer Masterprint</h3>
+                        <p class="text-[11px] text-purple-400 font-bold">Rate: ₹149 Rupees</p>
+                        <a href="#store-pricing" class="block text-center bg-purple-600 hover:bg-purple-700 text-[10px] font-bold py-1.5 rounded transition">Buy Ticket Pass</a>
+                    </div>
+                </div>
+                <div class="bg-[#1a1440] border border-purple-500/20 rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&w=400&q=80" class="w-full h-28 object-cover opacity-90" alt="Ghost Print">
+                    <div class="p-4 space-y-2">
+                        <h3 class="font-bold text-xs text-white">Chamber of Ghost Secrets</h3>
+                        <p class="text-[11px] text-purple-400 font-bold">Rate: ₹129 Rupees</p>
+                        <a href="#store-pricing" class="block text-center bg-purple-600 hover:bg-purple-700 text-[10px] font-bold py-1.5 rounded transition">Buy Ticket Pass</a>
+                    </div>
+                </div>
+                <div class="bg-[#1a1440] border border-purple-500/20 rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80" class="w-full h-28 object-cover opacity-90" alt="Sword Print">
+                    <div class="p-4 space-y-2">
+                        <h3 class="font-bold text-xs text-white">The Last Kingdom Mastercut</h3>
+                        <p class="text-[11px] text-purple-400 font-bold">Rate: ₹199 Rupees</p>
+                        <a href="#store-pricing" class="block text-center bg-purple-600 hover:bg-purple-700 text-[10px] font-bold py-1.5 rounded transition">Buy Ticket Pass</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="store-reviews" class="max-w-4xl mx-auto py-12 px-4">
+        <h2 class="text-xl font-extrabold text-center text-white mb-8">What Buyers Say</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-[#1a1440] p-4 border border-purple-500/20 rounded-xl">
+                <p class="text-[11px] text-slate-300 italic">
+                    "moviesStand is incredibly straightforward to use. My normal phone UPI worked seamlessly on the first scan attempt and the audio mix choice is clear."
+                </p>
+                <p class="text-[10px] font-bold mt-3 text-purple-400 text-right">— Ramesh K. from Delhi</p>
+            </div>
+            <div class="bg-[#1a1440] p-4 border border-purple-500/20 rounded-xl">
+                <p class="text-[11px] text-slate-300 italic">
+                    "I am glad I found this portal project. It is great to buy premium film downloads in local Rupees without dealing with overseas conversion rates."
+                </p>
+                <p class="text-[10px] font-bold mt-3 text-purple-400 text-right">— Soniya R. from Mumbai</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="store-pricing" class="bg-[#0d0a21] py-12 px-4 border-t border-purple-500/10">
+        <div class="max-w-md mx-auto text-center space-y-4">
+            <h2 class="text-xl font-extrabold text-white">Pricing Store Passes</h2>
+            
+            <div class="bg-[#1a1440] p-5 border border-purple-500/20 rounded-xl">
+                <h4 class="font-bold text-sm text-white">Single Pass Voucher</h4>
+                <div class="text-3xl font-black text-purple-400 my-2">₹149</div>
+                <p class="text-[10px] text-slate-400">Gives you one full credit token to select any movie print layout download link.</p>
+                <button class="w-full bg-purple-600 hover:bg-purple-700 text-xs font-bold py-2 rounded-lg mt-4 transition">Pay with UPI App</button>
+            </div>
+
+            <div class="bg-[#1a1440] p-5 border-2 border-purple-500 rounded-xl relative shadow-lg">
+                <span class="absolute -top-2.5 right-4 bg-purple-500 text-white text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-widest">Best Deal</span>
+                <h4 class="font-bold text-sm text-white">10 Movies Combo Vault</h4>
+                <div class="text-3xl font-black text-white my-2">₹999</div>
+                <p class="text-[10px] text-purple-300">Save your rupees balance if you plan on collecting multiple movie titles over time.</p>
+                <button class="w-full bg-white text-[#120e2e] hover:bg-slate-200 text-xs font-bold py-2 rounded-lg mt-4 transition">Pay with UPI App</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-[#09061a] border-t border-purple-500/20 py-10 px-4 text-xs text-slate-400">
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="space-y-2">
+                <h4 class="font-bold text-white text-sm">moviesStand Hub</h4>
+                <p class="text-[11px] text-slate-400 leading-relaxed">
+                    Authorized repository infrastructure layout for localized digital media asset presentation across student assignment tracks.
+                </p>
+                <p class="text-[10px] text-slate-500 pt-1">
+                    © 2026 moviesStand Curation Panel. All Rights Reserved.
+                </p>
+            </div>
+
+            <div class="space-y-1.5 text-[11px]">
+                <h4 class="font-bold text-white text-sm">Corporate Identification</h4>
+                <p class="text-slate-300 font-medium">🏢 Rivoquix Learning Private Limited</p>
+                <p>📍 Hustlehub Tech Park, Somasundarapalya, Sector 2 HSR Layout, Bengaluru, Karnataka 560102</p>
+                <p>💼 Corporate Registration CIN: U85500KA2025PTC204246</p>
+            </div>
+
+            <div class="space-y-2">
+                <h4 class="font-bold text-white text-sm">Support Points</h4>
+                <p class="text-[11px]">📞 Helpline Desk: +91 080 321 780</p>
+                <p class="text-[11px]">✉️ Office Mail ID: info_hr@unickacademy.com</p>
+                <div class="space-x-3 pt-1 text-purple-400 font-bold text-[11px]">
+                    <a href="#" class="hover:underline">Twitter (X)</a>
+                    <a href="#" class="hover:underline">Facebook</a>
+                    <a href="#" class="hover:underline">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
